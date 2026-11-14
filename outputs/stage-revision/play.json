@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "title": "Архив последнего света",
+  "plan": {
+    "title": "Архив последнего света",
+    "premise": "Вера, Марк и Эхо пытаются спасти каталог архива перед отключением. Вера хочет увезти с собой не только каталог, но и голос Эха. В процессе они обнаруживают неожиданные обстоятельства, связанные с созданием голоса Эха.",
+    "acts": [
+      {
+        "title": "Красная и синяя",
+        "objective": "Марк вставляет носитель, Вера просит Эхо сказать что-нибудь в микрофон для пробы. Они начинают процесс копирования каталога.",
+        "revelation": "Эхо обнаруживает в журнале записи, которые могут поставить под угрозу его переезд в школу, и решает предъявить их Вере и Марку.",
+        "ending": "Эхо предъявляет записи из журнала, вызывая спор между Верой и Марком о том, что именно можно копировать и увозить."
+      },
+      {
+        "title": "Адрес",
+        "objective": "Марк успешно переносит каталог на носитель, и возможность переноса Эха становится реальной.",
+        "revelation": "Из записей выясняется, что согласие на использование голосов для создания Эха было дано не совсем добровольно, что меняет отношение Веры к ситуации и подрывает её доверие к Марку.",
+        "ending": "Вера начинает сомневаться в правильности своих действий и в том, стоит ли продолжать перенос Эха."
+      },
+      {
+        "title": "Без звука",
+        "objective": "Эхо осознаёт, что его голос может быть утрачен или изменён, и ищет способ защитить себя.",
+        "revelation": "Эхо находит способ продемонстрировать свою ценность и уникальность, показывая, как его голос связан с каталогом и как он помогает сохранять память об архивах.",
+        "ending": "Эхо убеждает Веру и Марка в своей необходимости, но вопрос о том, как и в каком виде его можно перенести, остаётся открытым, создавая почву для дальнейших событий."
+      }
+    ]
+  },
+  "turns": [
+    {
+      "act": 1,
+      "speaker": "narrator",
+      "display_name": "Рассказчик",
+      "text": "Штекер щёлкает. Марк ещё держит пальцы на носителе.",
+      "stage_direction": "",
+      "citations": []
+    },
+    {
+      "act": 1,
+      "speaker": "echo",
+      "display_name": "Эхо, хранитель архива",
+      "text": "Я вас слышу.",
+      "stage_direction": "из динамика",
+      "stage_direction_source": "editorial",
+      "addressed_to": "vera",
+      "citations": []
+    },
+    {
+      "act": 1,
+      "speaker": "mark",
+      "display_name": "Марк, инженер",
+      "text": "Красная полоска — каталог. Синяя — ты. Обещал же, что оба уедете.",
+      "stage_direction": "двигает окно на экране",
+      "stage_direction_source": "editorial",
+      "addressed_to": "vera",
+      "citations": []
+    },
+    {
+      "act": 1,
+      "speaker": "vera",
+      "display_name": "Вера, архивист",
+      "text": "Скажи: «Вер, там холодно?»",
+      "stage_direction": "подвигает к себе микрофон",
+      "stage_direction_source": "editorial",
+      "addressed_to": "mark",
+      "citations": []
+    },
+    {
+      "act": 1,
+      "speaker": "echo",
+      "display_name": "Эхо, хранитель архива",
+      "text": "Вер, там холодно? ... Это её «р», да?",
+      "stage_direction": "динамик на секунду шипит",
+      "stage_direction_source": "editorial",
+      "addressed_to": "vera",
+      "citations": []
+    },
+    {
+      "act": 2,
+      "speaker": "narrator",
+      "display_name": "Рассказчик",
+      "text": "Красная полоска доходит до края. Синяя ждёт.",
+      "stage_direction": "",
+      "citations": []
+    },
+    {
+      "act": 2,
+      "speaker": "mark",
+      "display_name": "Марк, инженер",
+      "text": "Каталог готов. Нажимать?",
+      "stage_direction": "держит курсор над кнопкой",
+      "stage_direction_source": "editorial",
+      "addressed_to": "vera",
+      "citations": []
+    },
+    {
+      "act": 2,
+      "speaker": "vera",
+      "display_name": "Вера, архивист",
+      "text": "Сначала ещё раз. Только без моего имени.",
+      "stage_direction": "",
+      "stage_direction_source": "editorial",
+      "addressed_to": "mark",
+      "citations": []
+    },
+    {
+      "act": 2,
+      "speaker": "echo",
+      "display_name": "Эхо, хранитель архива",
+      "text": "Подожди. Я нашёл согласие на её запись. В графе «где» — адрес этого здания.",
+      "stage_direction": "выводит строку на экран",
+      "stage_direction_source": "editorial",
+      "addressed_to": "vera",
+      "citations": []
+    },
+    {
+      "act": 2,
+      "speaker": "mark",
+      "display_name": "Марк, инженер",
+      "text": "Мы же не запись везём. Твой голос.",
+      "stage_direction": "убирает руку с мыши",
+      "stage_direction_source": "editorial",
+      "addressed_to": "vera",
+      "citations": []
+    },
+    {
+      "act": 3,
+      "speaker": "narrator",
+      "display_name": "Рассказчик",
+      "text": "Из-под клавиатуры Вера вытягивает бланк. На углу остаётся отпечаток её пальца.",
+      "stage_direction": "",
+      "citations": []
+    },
+    {
+      "act": 3,
+      "speaker": "vera",
+      "display_name": "Вера, архивист",
+      "text": "Я её запись спрятала. Она просила стереть. Я сказала, что стёрла.",
+      "stage_direction": "отодвигает микрофон",
+      "stage_direction_source": "editorial",
+      "addressed_to": "mark",
+      "citations": []
+    },
+    {
+      "act": 3,
+      "speaker": "mark",
+      "display_name": "Марк, инженер",
+      "text": "Могу снять галочку. Текст останется.",
+      "stage_direction": "",
+      "stage_direction_source": "editorial",
+      "addressed_to": "vera",
+      "citations": []
+    },
+    {
+      "act": 3,
+      "speaker": "echo",
+      "display_name": "Эхо, хранитель архива",
+      "text": "Ты и без звука будешь открывать меня?",
+      "stage_direction": "курсор на экране замирает",
+      "stage_direction_source": "editorial",
+      "addressed_to": "vera",
+      "citations": []
+    },
+    {
+      "act": 3,
+      "speaker": "mark",
+      "display_name": "Марк, инженер",
+      "text": "Галочку снял. Где расписаться?",
+      "stage_direction": "",
+      "stage_direction_source": "editorial",
+      "addressed_to": "vera",
+      "citations": []
+    },
+    {
+      "act": 3,
+      "speaker": "narrator",
+      "display_name": "Рассказчик",
+      "text": "Вера ставит подпись и кладёт носитель в коробку с каталогом. Марк расписывается следом. За дверью шуршит картон. На экране появляется «Вер, там холодно?». Динамик молчит.",
+      "stage_direction": "",
+      "citations": []
+    }
+  ],
+  "metadata": {
+    "mode": "cloud",
+    "fixture": false,
+    "seed": 42,
+    "warning": "Сценическая редакция Codex по облачному прогону. Исходные реплики агентов сохранены отдельно.",
+    "models": {
+      "planner": "cloud:gpt://<folder_id>/yandexgpt-5.1",
+      "director": "cloud:gpt://<folder_id>/yandexgpt-5.1",
+      "narrator": "cloud:gpt://<folder_id>/yandexgpt-5.1",
+      "vera": "cloud:gpt://<folder_id>/yandexgpt-5.1",
+      "mark": "cloud:gpt://<folder_id>/aliceai-llm-flash",
+      "echo": "cloud:gpt://<folder_id>/yandexgpt-5.1"
+    },
+    "local_models": {},
+    "elapsed_seconds": 203.858,
+    "acts": 3,
+    "turns_per_act": 4,
+    "editorial_adaptation": true,
+    "source_run": "../cloud-revision/play.json"
+  },
+  "stats": {
+    "quality": {
+      "unique_actor_texts": 12,
+      "duplicate_actor_turns": 0,
+      "duplicate_scene_texts": 0,
+      "warnings": []
+    }
+  }
+}

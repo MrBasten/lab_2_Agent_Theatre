@@ -1,0 +1,19 @@
+{
+  "task": "load-only metadata probe; no generation",
+  "model_loaded": true,
+  "real_inference": false,
+  "provider": "local-hf:Qwen/Qwen3-4B-Instruct-2507",
+  "resolved_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "attention_implementation": "sdpa",
+  "dtype": "torch.bfloat16",
+  "parameter_devices": {
+    "cuda:0": 4022468096
+  },
+  "cuda_allocated_mib": 7672.39,
+  "cuda_reserved_mib": 7674.0,
+  "flash_sdp_enabled": true,
+  "mem_efficient_sdp_enabled": true,
+  "math_sdp_enabled": true,
+  "flash_attention_built": false,
+  "wall_seconds": 11.422
+}

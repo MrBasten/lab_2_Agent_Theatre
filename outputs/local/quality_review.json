@@ -1,0 +1,14 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "technical_run_completed": true,
+  "suitable_as_final_play": false,
+  "actor_turns": 9,
+  "unique_actor_texts": 4,
+  "exact_duplicate_actor_turns": 5,
+  "exact_duplicate_scene_texts": 2,
+  "review": [
+    "Марк обращается к самому себе и повторяет реплику других ролей.",
+    "Одна и та же сцена повторяется в трёх действиях.",
+    "Полноценное развитие конфликта не получилось. Это отрицательный базовый эксперимент."
+  ]
+}

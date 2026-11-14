@@ -1,0 +1,295 @@
+{
+  "status": "complete",
+  "provider": "Piper",
+  "provider_version": "1.8.0",
+  "device": "cpu",
+  "source_mode": "cloud",
+  "title": "Архив последнего света",
+  "voices": {
+    "echo": "ru_RU-ruslan-medium",
+    "mark": "ru_RU-dmitri-medium",
+    "narrator": "ru_RU-denis-medium",
+    "vera": "ru_RU-irina-medium"
+  },
+  "length_scale": {
+    "echo": 1.12,
+    "mark": 0.94,
+    "narrator": 1.08,
+    "vera": 1.04
+  },
+  "sample_rate": 22050,
+  "merged": "play.wav",
+  "duration_seconds": 161.304,
+  "clips": [
+    {
+      "speaker": "narrator",
+      "text": "Настольная лампа мигает. Рядом с ключом лежит пустой акт приёма.",
+      "act": 1,
+      "kind": "scene",
+      "index": 1,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 0.0,
+      "end_seconds": 4.969
+    },
+    {
+      "speaker": "narrator",
+      "text": "пододвигает приказ к Марку",
+      "act": 1,
+      "kind": "direction",
+      "index": 2,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 5.419,
+      "end_seconds": 7.648
+    },
+    {
+      "speaker": "vera",
+      "text": "Марк, к утру архив отключат. В списке двенадцать волонтёров. Положи ключ на смету. Если цифры сойдутся, я сама открою шкаф.",
+      "act": 1,
+      "kind": "speech",
+      "index": 3,
+      "voice_id": "ru_RU-irina-medium",
+      "start_seconds": 7.868,
+      "end_seconds": 17.783
+    },
+    {
+      "speaker": "narrator",
+      "text": "переворачивает смету",
+      "act": 1,
+      "kind": "direction",
+      "index": 4,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 18.233,
+      "end_seconds": 20.091
+    },
+    {
+      "speaker": "mark",
+      "text": "Я сказал, что каталог не спасти. Я считал без волонтёров. Сорок страниц на человека. Двенадцать человек. Четыреста восемьдесят страниц мы уже не должны оплачивать.",
+      "act": 1,
+      "kind": "speech",
+      "index": 5,
+      "voice_id": "ru_RU-dmitri-medium",
+      "start_seconds": 20.311,
+      "end_seconds": 30.853
+    },
+    {
+      "speaker": "narrator",
+      "text": "на экране появляются две строки",
+      "act": 1,
+      "kind": "direction",
+      "index": 6,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 31.302,
+      "end_seconds": 33.915
+    },
+    {
+      "speaker": "echo",
+      "text": "Всего — тысяча двести. Остаток — семьсот двадцать. Марк, считай от всей пачки. Иначе подаришь нам тех же волонтёров второй раз.",
+      "act": 1,
+      "kind": "speech",
+      "index": 7,
+      "voice_id": "ru_RU-ruslan-medium",
+      "start_seconds": 34.135,
+      "end_seconds": 43.063
+    },
+    {
+      "speaker": "narrator",
+      "text": "кладёт ключ на пустой бланк",
+      "act": 1,
+      "kind": "direction",
+      "index": 8,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 43.513,
+      "end_seconds": 45.684
+    },
+    {
+      "speaker": "vera",
+      "text": "Тысяча восемьсот. Ровно столько у нас есть. Значит, бумага поедет. А что мы напишем напротив голосов?",
+      "act": 1,
+      "kind": "speech",
+      "index": 9,
+      "voice_id": "ru_RU-irina-medium",
+      "start_seconds": 45.904,
+      "end_seconds": 53.601
+    },
+    {
+      "speaker": "narrator",
+      "text": "На столе раскрыты смета и машинный журнал. Ключ прижимает край бланка.",
+      "act": 2,
+      "kind": "scene",
+      "index": 10,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 54.751,
+      "end_seconds": 60.115
+    },
+    {
+      "speaker": "narrator",
+      "text": "подводит карандаш к строке о переносе",
+      "act": 2,
+      "kind": "direction",
+      "index": 11,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 60.565,
+      "end_seconds": 63.293
+    },
+    {
+      "speaker": "mark",
+      "text": "Я могу перенести каталог, указатель и контрольные суммы. Если заодно скопировать голоса, Эхо заговорит и в школе. Места на носителе хватит.",
+      "act": 2,
+      "kind": "speech",
+      "index": 12,
+      "voice_id": "ru_RU-dmitri-medium",
+      "start_seconds": 63.513,
+      "end_seconds": 71.815
+    },
+    {
+      "speaker": "narrator",
+      "text": "на терминале загорается индикатор",
+      "act": 2,
+      "kind": "direction",
+      "index": 13,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 72.264,
+      "end_seconds": 74.912
+    },
+    {
+      "speaker": "echo",
+      "text": "В журнале есть граница. Согласие дано на работу здесь, внутри здания. Школа — другое место. Свободное место на носителе этого не меняет.",
+      "act": 2,
+      "kind": "speech",
+      "index": 14,
+      "voice_id": "ru_RU-ruslan-medium",
+      "start_seconds": 75.132,
+      "end_seconds": 84.222
+    },
+    {
+      "speaker": "narrator",
+      "text": "прикрывает ладонью строку для голосового корпуса",
+      "act": 2,
+      "kind": "direction",
+      "index": 15,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 84.672,
+      "end_seconds": 88.155
+    },
+    {
+      "speaker": "vera",
+      "text": "Я спрятала запись матери. Она просила стереть её, а я всё ждала дня, когда перестану хотеть услышать её снова. Если впишу сюда голоса, я опять решу за неё.",
+      "act": 2,
+      "kind": "speech",
+      "index": 16,
+      "voice_id": "ru_RU-irina-medium",
+      "start_seconds": 88.375,
+      "end_seconds": 100.775
+    },
+    {
+      "speaker": "narrator",
+      "text": "стирает карандашную отметку",
+      "act": 2,
+      "kind": "direction",
+      "index": 17,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 101.225,
+      "end_seconds": 103.326
+    },
+    {
+      "speaker": "mark",
+      "text": "Хорошо. В эту строку я запишу «не переносить». Ответственным за отключение ставь меня. Я останусь у рубильника, пока ты не вынесешь коробку.",
+      "act": 2,
+      "kind": "speech",
+      "index": 18,
+      "voice_id": "ru_RU-dmitri-medium",
+      "start_seconds": 103.546,
+      "end_seconds": 112.056
+    },
+    {
+      "speaker": "narrator",
+      "text": "Марк ставит у двери коробку. На экране Эха мигает пустая строка подтверждения.",
+      "act": 3,
+      "kind": "scene",
+      "index": 19,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 113.206,
+      "end_seconds": 119.266
+    },
+    {
+      "speaker": "narrator",
+      "text": "на экране появляется строка технического подтверждения",
+      "act": 3,
+      "kind": "direction",
+      "index": 20,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 119.716,
+      "end_seconds": 123.397
+    },
+    {
+      "speaker": "echo",
+      "text": "У меня есть подтверждение для каталога. Для голосов — нет. После отключения я не смогу произнести то, что сейчас произношу. Оставьте последнюю фразу текстом.",
+      "act": 3,
+      "kind": "speech",
+      "index": 21,
+      "voice_id": "ru_RU-ruslan-medium",
+      "start_seconds": 123.617,
+      "end_seconds": 133.183
+    },
+    {
+      "speaker": "narrator",
+      "text": "подписывает акт и берёт коробку",
+      "act": 3,
+      "kind": "direction",
+      "index": 22,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 133.633,
+      "end_seconds": 136.222
+    },
+    {
+      "speaker": "vera",
+      "text": "Подписано. Каталог, указатель, контрольные суммы. В школе по ним найдут нужную страницу. А за голосом пусть приходят к тем, чей он.",
+      "act": 3,
+      "kind": "speech",
+      "index": 23,
+      "voice_id": "ru_RU-irina-medium",
+      "start_seconds": 136.442,
+      "end_seconds": 147.971
+    },
+    {
+      "speaker": "narrator",
+      "text": "подписывает акт и берётся за выключатель",
+      "act": 3,
+      "kind": "direction",
+      "index": 24,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 148.421,
+      "end_seconds": 151.405
+    },
+    {
+      "speaker": "mark",
+      "text": "Вторая подпись. Вера, дверь открыта. Эхо, успеваешь?",
+      "act": 3,
+      "kind": "speech",
+      "index": 25,
+      "voice_id": "ru_RU-dmitri-medium",
+      "start_seconds": 151.625,
+      "end_seconds": 155.955
+    },
+    {
+      "speaker": "narrator",
+      "text": "экран гаснет после последней строки",
+      "act": 3,
+      "kind": "direction",
+      "index": 26,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 156.405,
+      "end_seconds": 159.238
+    },
+    {
+      "speaker": "echo",
+      "text": "Успеваю. Запись окончена.",
+      "act": 3,
+      "kind": "speech",
+      "index": 27,
+      "voice_id": "ru_RU-ruslan-medium",
+      "start_seconds": 159.458,
+      "end_seconds": 161.304
+    }
+  ]
+}

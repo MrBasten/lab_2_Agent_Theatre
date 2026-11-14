@@ -1,0 +1,275 @@
+{
+  "status": "complete",
+  "provider": "Piper",
+  "provider_version": "1.8.0",
+  "device": "cpu",
+  "source_mode": "cloud",
+  "title": "Архив последнего света",
+  "voices": {
+    "echo": "ru_RU-ruslan-medium",
+    "mark": "ru_RU-dmitri-medium",
+    "narrator": "ru_RU-denis-medium",
+    "vera": "ru_RU-irina-medium"
+  },
+  "length_scale": {
+    "echo": 1.12,
+    "mark": 0.94,
+    "narrator": 1.08,
+    "vera": 1.04
+  },
+  "sample_rate": 22050,
+  "merged": "play.wav",
+  "duration_seconds": 94.093,
+  "clips": [
+    {
+      "speaker": "narrator",
+      "text": "Штекер щёлкает. Марк ещё держит пальцы на носителе.",
+      "act": 1,
+      "kind": "scene",
+      "index": 1,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 0.0,
+      "end_seconds": 4.191
+    },
+    {
+      "speaker": "narrator",
+      "text": "из динамика",
+      "act": 1,
+      "kind": "direction",
+      "index": 2,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 4.641,
+      "end_seconds": 5.941
+    },
+    {
+      "speaker": "echo",
+      "text": "Я вас слышу.",
+      "act": 1,
+      "kind": "speech",
+      "index": 3,
+      "voice_id": "ru_RU-ruslan-medium",
+      "start_seconds": 6.161,
+      "end_seconds": 7.311
+    },
+    {
+      "speaker": "narrator",
+      "text": "двигает окно на экране",
+      "act": 1,
+      "kind": "direction",
+      "index": 4,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 7.761,
+      "end_seconds": 9.827
+    },
+    {
+      "speaker": "mark",
+      "text": "Красная полоска — каталог. Синяя — ты. Обещал же, что оба уедете.",
+      "act": 1,
+      "kind": "speech",
+      "index": 5,
+      "voice_id": "ru_RU-dmitri-medium",
+      "start_seconds": 10.047,
+      "end_seconds": 14.889
+    },
+    {
+      "speaker": "narrator",
+      "text": "подвигает к себе микрофон",
+      "act": 1,
+      "kind": "direction",
+      "index": 6,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 15.339,
+      "end_seconds": 17.521
+    },
+    {
+      "speaker": "vera",
+      "text": "Скажи: «Вер, там холодно?»",
+      "act": 1,
+      "kind": "speech",
+      "index": 7,
+      "voice_id": "ru_RU-irina-medium",
+      "start_seconds": 17.741,
+      "end_seconds": 20.389
+    },
+    {
+      "speaker": "narrator",
+      "text": "динамик на секунду шипит",
+      "act": 1,
+      "kind": "direction",
+      "index": 8,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 20.839,
+      "end_seconds": 23.033
+    },
+    {
+      "speaker": "echo",
+      "text": "Вер, там холодно? ... Это её «р», да?",
+      "act": 1,
+      "kind": "speech",
+      "index": 9,
+      "voice_id": "ru_RU-ruslan-medium",
+      "start_seconds": 23.253,
+      "end_seconds": 26.283
+    },
+    {
+      "speaker": "narrator",
+      "text": "Красная полоска доходит до края. Синяя ждёт.",
+      "act": 2,
+      "kind": "scene",
+      "index": 10,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 27.433,
+      "end_seconds": 31.404
+    },
+    {
+      "speaker": "narrator",
+      "text": "держит курсор над кнопкой",
+      "act": 2,
+      "kind": "direction",
+      "index": 11,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 31.854,
+      "end_seconds": 33.885
+    },
+    {
+      "speaker": "mark",
+      "text": "Каталог готов. Нажимать?",
+      "act": 2,
+      "kind": "speech",
+      "index": 12,
+      "voice_id": "ru_RU-dmitri-medium",
+      "start_seconds": 34.105,
+      "end_seconds": 36.451
+    },
+    {
+      "speaker": "vera",
+      "text": "Сначала ещё раз. Только без моего имени.",
+      "act": 2,
+      "kind": "speech",
+      "index": 13,
+      "voice_id": "ru_RU-irina-medium",
+      "start_seconds": 36.9,
+      "end_seconds": 39.849
+    },
+    {
+      "speaker": "narrator",
+      "text": "выводит строку на экран",
+      "act": 2,
+      "kind": "direction",
+      "index": 14,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 40.299,
+      "end_seconds": 42.343
+    },
+    {
+      "speaker": "echo",
+      "text": "Подожди. Я нашёл согласие на её запись. В графе «где» — адрес этого здания.",
+      "act": 2,
+      "kind": "speech",
+      "index": 15,
+      "voice_id": "ru_RU-ruslan-medium",
+      "start_seconds": 42.563,
+      "end_seconds": 48.298
+    },
+    {
+      "speaker": "narrator",
+      "text": "убирает руку с мыши",
+      "act": 2,
+      "kind": "direction",
+      "index": 16,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 48.748,
+      "end_seconds": 50.664
+    },
+    {
+      "speaker": "mark",
+      "text": "Мы же не запись везём. Твой голос.",
+      "act": 2,
+      "kind": "speech",
+      "index": 17,
+      "voice_id": "ru_RU-dmitri-medium",
+      "start_seconds": 50.884,
+      "end_seconds": 53.577
+    },
+    {
+      "speaker": "narrator",
+      "text": "Из-под клавиатуры Вера вытягивает бланк. На углу остаётся отпечаток её пальца.",
+      "act": 3,
+      "kind": "scene",
+      "index": 18,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 54.727,
+      "end_seconds": 60.834
+    },
+    {
+      "speaker": "narrator",
+      "text": "отодвигает микрофон",
+      "act": 3,
+      "kind": "direction",
+      "index": 19,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 61.284,
+      "end_seconds": 63.235
+    },
+    {
+      "speaker": "vera",
+      "text": "Я её запись спрятала. Она просила стереть. Я сказала, что стёрла.",
+      "act": 3,
+      "kind": "speech",
+      "index": 20,
+      "voice_id": "ru_RU-irina-medium",
+      "start_seconds": 63.455,
+      "end_seconds": 69.271
+    },
+    {
+      "speaker": "mark",
+      "text": "Могу снять галочку. Текст останется.",
+      "act": 3,
+      "kind": "speech",
+      "index": 21,
+      "voice_id": "ru_RU-dmitri-medium",
+      "start_seconds": 69.721,
+      "end_seconds": 72.658
+    },
+    {
+      "speaker": "narrator",
+      "text": "курсор на экране замирает",
+      "act": 3,
+      "kind": "direction",
+      "index": 22,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 73.108,
+      "end_seconds": 75.279
+    },
+    {
+      "speaker": "echo",
+      "text": "Ты и без звука будешь открывать меня?",
+      "act": 3,
+      "kind": "speech",
+      "index": 23,
+      "voice_id": "ru_RU-ruslan-medium",
+      "start_seconds": 75.499,
+      "end_seconds": 77.763
+    },
+    {
+      "speaker": "mark",
+      "text": "Галочку снял. Где расписаться?",
+      "act": 3,
+      "kind": "speech",
+      "index": 24,
+      "voice_id": "ru_RU-dmitri-medium",
+      "start_seconds": 78.213,
+      "end_seconds": 80.907
+    },
+    {
+      "speaker": "narrator",
+      "text": "Вера ставит подпись и кладёт носитель в коробку с каталогом. Марк расписывается следом. За дверью шуршит картон. На экране появляется «Вер, там холодно?». Динамик молчит.",
+      "act": 3,
+      "kind": "scene",
+      "index": 25,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 81.357,
+      "end_seconds": 94.093
+    }
+  ]
+}

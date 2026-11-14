@@ -1,0 +1,32 @@
+{
+  "actor_turns": 9,
+  "turns_by_character": {
+    "echo": 3,
+    "mark": 3,
+    "vera": 3
+  },
+  "tool_calls": 9,
+  "successful_tool_calls": 9,
+  "cited_turns": 8,
+  "generation_calls": {
+    "planner": 1,
+    "director": 9,
+    "narrator": 3,
+    "vera": 6,
+    "mark": 6,
+    "echo": 6
+  },
+  "input_characters": 216667,
+  "output_characters": 9614,
+  "director_fallbacks": 0,
+  "stage_completions": 0,
+  "quality": {
+    "unique_actor_texts": 4,
+    "duplicate_actor_turns": 5,
+    "duplicate_scene_texts": 2,
+    "warnings": [
+      "Точных повторов реплик после нормализации пробелов и регистра: 5.",
+      "Точных повторов описаний сцен: 2."
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "interrupted_for_observed_memory_paging",
+  "date_local": "2026-11-04",
+  "timezone": "Europe/Moscow",
+  "process_id": 9952,
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "task": "3 acts, 3 actor turns per act; real local inference",
+  "completed_play": false,
+  "last_completed_actor": "echo",
+  "last_act": 3,
+  "pending_call": "director",
+  "pending_call_elapsed_observed": "more than 4 minutes",
+  "wddm_dedicated_usage_bytes": 11813318656,
+  "wddm_shared_usage_bytes": 4599054336,
+  "wddm_total_committed_bytes": 16412372992,
+  "gpu_physical_memory_mib": 12227,
+  "reason": "The model process used several GiB of WDDM shared system memory and long-context inference slowed sharply. The process is stopped with parent authorization; no foreign application is stopped.",
+  "trace": "local_4b_wddm_paging_2026-11-04.events.jsonl",
+  "fallback_to_fixture": false
+}

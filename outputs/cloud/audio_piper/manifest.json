@@ -1,0 +1,325 @@
+{
+  "status": "complete",
+  "provider": "Piper",
+  "provider_version": "1.8.0",
+  "device": "cpu",
+  "source_mode": "cloud",
+  "title": "Архив последнего света",
+  "voices": {
+    "echo": "ru_RU-ruslan-medium",
+    "mark": "ru_RU-dmitri-medium",
+    "narrator": "ru_RU-denis-medium",
+    "vera": "ru_RU-irina-medium"
+  },
+  "length_scale": {
+    "echo": 1.12,
+    "mark": 0.94,
+    "narrator": 1.08,
+    "vera": 1.04
+  },
+  "sample_rate": 22050,
+  "merged": "play.wav",
+  "duration_seconds": 296.059,
+  "clips": [
+    {
+      "speaker": "narrator",
+      "text": "Лампа на столе мигает, отбрасывая тени на стену",
+      "act": 1,
+      "kind": "direction",
+      "index": 1,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 0.0,
+      "end_seconds": 3.553
+    },
+    {
+      "speaker": "narrator",
+      "text": "Архив погружён в полумрак, лишь тусклый свет лампы освещает стол, заваленный документами. На фоне слышится лёгкое шуршание бумаги.",
+      "act": 1,
+      "kind": "scene",
+      "index": 2,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 3.773,
+      "end_seconds": 12.724
+    },
+    {
+      "speaker": "narrator",
+      "text": "показывает документ, постукивая пальцем по заметке про ключ",
+      "act": 1,
+      "kind": "direction",
+      "index": 3,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 13.174,
+      "end_seconds": 17.307
+    },
+    {
+      "speaker": "vera",
+      "text": "Марк, глянь, здесь приказ об отключении архива. У нас всего до утра, чтобы вынести бумаги. И ещё — список волонтёров для оцифровки есть. Мы можем успеть подготовить часть каталога. Нужно сверить смету.",
+      "act": 1,
+      "kind": "speech",
+      "index": 4,
+      "voice_id": "ru_RU-irina-medium",
+      "start_seconds": 17.527,
+      "end_seconds": 34.594
+    },
+    {
+      "speaker": "narrator",
+      "text": "сдвигает бумаги в сторону, готовясь к расчётам",
+      "act": 1,
+      "kind": "direction",
+      "index": 5,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 35.044,
+      "end_seconds": 38.422
+    },
+    {
+      "speaker": "mark",
+      "text": "Вера, послушай: по новой смете у нас 1800 рублей и 12 волонтёров, каждый делает 40 страниц за смену — это 480 страниц. Я считал, что сохранить каталог невозможно, но это было до списка волонтёров — моя ошибка. Проверим по калькулятору, хватит ли средств на оставшиеся страницы. Если да — подписываем акт и переносим материал в школу до 06:00.",
+      "act": 1,
+      "kind": "speech",
+      "index": 6,
+      "voice_id": "ru_RU-dmitri-medium",
+      "start_seconds": 38.642,
+      "end_seconds": 60.364
+    },
+    {
+      "speaker": "narrator",
+      "text": "индикатор на терминале мигает, показывая готовность к расчётам",
+      "act": 1,
+      "kind": "direction",
+      "index": 7,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 60.814,
+      "end_seconds": 65.087
+    },
+    {
+      "speaker": "echo",
+      "text": "Марк, волонтёры помогут, но нужно проверить, сколько страниц останется оплатить после их работы. Вера, посмотри в смете, сколько стоит оцифровка оставшихся страниц после 480 бесплатных. Я могу помочь с расчётом.",
+      "act": 1,
+      "kind": "speech",
+      "index": 8,
+      "voice_id": "ru_RU-ruslan-medium",
+      "start_seconds": 65.307,
+      "end_seconds": 78.484
+    },
+    {
+      "speaker": "narrator",
+      "text": "смотрит на терминал, ожидая расчёта",
+      "act": 1,
+      "kind": "direction",
+      "index": 9,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 78.934,
+      "end_seconds": 81.79
+    },
+    {
+      "speaker": "vera",
+      "text": "Марк, волонтёры помогут с 480 страницами, но нужно узнать стоимость оставшихся 720. Эхо, дай расчёт, сколько выйдет за эти страницы по тарифу 2.5 рубля. Потом подпишем акт и перенесём каталог в школу.",
+      "act": 1,
+      "kind": "speech",
+      "index": 10,
+      "voice_id": "ru_RU-irina-medium",
+      "start_seconds": 82.01,
+      "end_seconds": 100.342
+    },
+    {
+      "speaker": "narrator",
+      "text": "Марк и Вера склонились над столом, изучая машинный журнал; в воздухе витает напряжение",
+      "act": 2,
+      "kind": "direction",
+      "index": 11,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 101.492,
+      "end_seconds": 107.808
+    },
+    {
+      "speaker": "narrator",
+      "text": "Комната наполнена шелестом бумаг и тихим гулом терминала. На столе разбросаны документы, среди которых выделяется открытый машинный журнал с пометками.",
+      "act": 2,
+      "kind": "scene",
+      "index": 12,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 108.028,
+      "end_seconds": 117.85
+    },
+    {
+      "speaker": "narrator",
+      "text": "подводит палец к строке в смете, сверяя цифры",
+      "act": 2,
+      "kind": "direction",
+      "index": 13,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 118.3,
+      "end_seconds": 121.516
+    },
+    {
+      "speaker": "mark",
+      "text": "Вера, расчёт готов: оставшиеся 720 страниц — это 600 рублей. У нас в смете 1800, так что средств хватит. Если акт подпишем сейчас, до 06:00 успеем перенести каталог в школу. Проверю ещё раз по графику смены — если начало в 07:00, коробки должны выйти не позднее 05:30, чтобы всё успеть.",
+      "act": 2,
+      "kind": "speech",
+      "index": 14,
+      "voice_id": "ru_RU-dmitri-medium",
+      "start_seconds": 121.736,
+      "end_seconds": 140.649
+    },
+    {
+      "speaker": "narrator",
+      "text": "индикатор на терминале мигает, подчёркивая важность деталей протокола",
+      "act": 2,
+      "kind": "direction",
+      "index": 15,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 141.099,
+      "end_seconds": 145.813
+    },
+    {
+      "speaker": "echo",
+      "text": "Марк, расчёт верный, но посмотрите в протоколе — в акте приёма нужно перечислить, что именно передают, что остаётся на сервере и кто отвечает за отключение. Вера, проверь, все ли документы мы можем перенести, учитывая ограничения протокола.",
+      "act": 2,
+      "kind": "speech",
+      "index": 16,
+      "voice_id": "ru_RU-ruslan-medium",
+      "start_seconds": 146.033,
+      "end_seconds": 162.809
+    },
+    {
+      "speaker": "narrator",
+      "text": "листает протокол, ища нужные пункты",
+      "act": 2,
+      "kind": "direction",
+      "index": 17,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 163.259,
+      "end_seconds": 166.324
+    },
+    {
+      "speaker": "vera",
+      "text": "Марк, расчёт верный, но нужно проверить, какие документы мы можем реально перенести. Эхо, подскажи, есть ли в протоколе ограничения по объёму или типу материалов? Нужно убедиться, что мы не упустим что-то важное.",
+      "act": 2,
+      "kind": "speech",
+      "index": 18,
+      "voice_id": "ru_RU-irina-medium",
+      "start_seconds": 166.544,
+      "end_seconds": 182.647
+    },
+    {
+      "speaker": "narrator",
+      "text": "перелистывает протокол, останавливаясь на разделе с перечнем материалов",
+      "act": 2,
+      "kind": "direction",
+      "index": 19,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 183.097,
+      "end_seconds": 187.776
+    },
+    {
+      "speaker": "mark",
+      "text": "Вера, я проверю протокол ещё раз — нужно чётко прописать в акте, какие именно документы переносим, а что остаётся на сервере. Если укажем всё по бланку, успеем до 06:00. Подпишу акт вместе с тобой, как только уточним перечень.",
+      "act": 2,
+      "kind": "speech",
+      "index": 20,
+      "voice_id": "ru_RU-dmitri-medium",
+      "start_seconds": 187.996,
+      "end_seconds": 200.755
+    },
+    {
+      "speaker": "narrator",
+      "text": "мягкий свет настольной лампы падает на листы протокола, подчёркивая напряжённость момента",
+      "act": 3,
+      "kind": "direction",
+      "index": 21,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 201.905,
+      "end_seconds": 207.582
+    },
+    {
+      "speaker": "narrator",
+      "text": "Комната погружена в полумрак, на столе разбросаны листы протокола и сметы. На экране терминала мерцает текст — Эхо продолжает анализировать данные.",
+      "act": 3,
+      "kind": "scene",
+      "index": 22,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 207.802,
+      "end_seconds": 217.903
+    },
+    {
+      "speaker": "narrator",
+      "text": "индикатор на терминале мигает, акцентируя внимание на протоколе",
+      "act": 3,
+      "kind": "direction",
+      "index": 23,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 218.353,
+      "end_seconds": 222.927
+    },
+    {
+      "speaker": "echo",
+      "text": "Вера, протокол чётко говорит: нужно перечислить, что передаём, что оставляем и кто отвечает за отключение. Марк, проверь, все ли строки в бланке акта заполнены. Нельзя упустить раздел с голосовым корпусом — его перенос требует отдельных согласий.",
+      "act": 3,
+      "kind": "speech",
+      "index": 24,
+      "voice_id": "ru_RU-ruslan-medium",
+      "start_seconds": 223.147,
+      "end_seconds": 237.637
+    },
+    {
+      "speaker": "narrator",
+      "text": "указывает на коробку с записями",
+      "act": 3,
+      "kind": "direction",
+      "index": 25,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 238.087,
+      "end_seconds": 240.676
+    },
+    {
+      "speaker": "vera",
+      "text": "Марк, проверь, упомянут ли в протоколе голосовой корпус. Эхо сказал, что для его переноса нужны отдельные согласия, а у нас есть коробка с записями, которые могут под это попасть. Надо убедиться, что мы ничего не нарушим.",
+      "act": 3,
+      "kind": "speech",
+      "index": 26,
+      "voice_id": "ru_RU-irina-medium",
+      "start_seconds": 240.896,
+      "end_seconds": 257.115
+    },
+    {
+      "speaker": "narrator",
+      "text": "откладывает лист с протоколом, берёт чистый бланк акта",
+      "act": 3,
+      "kind": "direction",
+      "index": 27,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 257.565,
+      "end_seconds": 261.524
+    },
+    {
+      "speaker": "mark",
+      "text": "Вера, по протоколу для переноса голосового корпуса нужны отдельные согласия — мы не можем включить эти записи в акт без них. Я исключу голосовой корпус из перечня передаваемых материалов, чтобы не нарушить правила. Подпишу акт после того, как укажем в нём бумажный каталог и текстовый указатель.",
+      "act": 3,
+      "kind": "speech",
+      "index": 28,
+      "voice_id": "ru_RU-dmitri-medium",
+      "start_seconds": 261.744,
+      "end_seconds": 277.197
+    },
+    {
+      "speaker": "narrator",
+      "text": "индикатор на терминале гаснет, экран показывает готовый шаблон подтверждения",
+      "act": 3,
+      "kind": "direction",
+      "index": 29,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 277.647,
+      "end_seconds": 283.034
+    },
+    {
+      "speaker": "echo",
+      "text": "Марк, Вера, акт почти готов. Укажи в нём бумажный каталог и текстовый указатель — их перенос не требует дополнительных согласий. Я дам техническое подтверждение. Готовьтесь подписать, время идёт.",
+      "act": 3,
+      "kind": "speech",
+      "index": 30,
+      "voice_id": "ru_RU-ruslan-medium",
+      "start_seconds": 283.254,
+      "end_seconds": 296.059
+    }
+  ]
+}

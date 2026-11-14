@@ -1,0 +1,52 @@
+{
+  "review_type": "assistant manual diagnostic review; no grading score",
+  "review_date_local": "2026-11-04",
+  "timezone": "Europe/Moscow",
+  "source_trace": "outputs\\diagnostics\\local_4b_nf4_duplicate_2026-11-04.events.jsonl",
+  "source_sha256": "d8915ba9c49f74e9f166b631339624687bcd5274bff03fd625da7d69876e7fbc",
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "quantization": "nf4",
+  "completed_play": false,
+  "status": "rejected_exact_repetition_after_one_repair",
+  "planned_actor_turns": 9,
+  "accepted_actor_turns": 7,
+  "attempted_actor_turns": 8,
+  "generation_calls": 36,
+  "summed_generation_seconds": 363.286,
+  "tool_calls": 14,
+  "tool_names": {
+    "search_files": 4,
+    "read_file": 10
+  },
+  "successful_tool_calls": 6,
+  "mark_identity_check": {
+    "raw_speech_candidates": 4,
+    "self_addressee_candidates": 0,
+    "self_name_opening_candidates": 0
+  },
+  "strengths": [
+    "Персонажи обращаются друг к другу; в предложенных ходах Марка нет прежнего самобращения.",
+    "Диалог развивает тему сохранения памяти и права на забвение; источники и реальные вызовы инструментов наблюдаемы."
+  ],
+  "limitations": [
+    "Марк в третьем действии повторил свою предыдущую реплику дословно; реальная попытка исправления вернула тот же текст. Валидатор остановил прогон.",
+    "Речевые стили сближаются: инженер и Эхо используют один мотив «не только дата, но и дыхание», поэтому различимость голосов ограничена.",
+    "Из 10 вызовов read_file восемь были отклонены: модель одновременно передавала согласованные id и path, а прежний интерфейс требовал ровно одно поле. После опыта интерфейс доработан: согласованная пара допустима, противоречащая или выходящая за архив отклоняется. Исторический trace не изменён.",
+    "Принятый текст не завершил причинную дугу с конкретным финальным решением: полного play.json нет.",
+    "Художественный реквизит и намеренный рефрен сами по себе не считаются фактологической ошибкой; проверка ID источников не доказывает соответствие каждой интерпретации документу."
+  ],
+  "illustrative_raw_quotes": [
+    {
+      "speaker": "echo",
+      "text": "Я проверю, что в тетрадях написано о чувствах — не только даты, но и фразы, которые были в тот момент. Вера, послушай: если в записях есть строки вроде «я вспоминаю», «свет входит», «это было как будто», то память — не просто факт, а дыхание того, кто был. А может, и то, что не было, тоже ушло с нами?",
+      "note": "Exact raw model text; illustrative excerpt, not a claim of final literary quality."
+    },
+    {
+      "speaker": "vera",
+      "text": "Марк, в этой тетради не просто дата — это признание. «Я не пришёл» — и в этом лежит утрата. Если свет входит, а не просто включается, значит, память — это не только факт, но и выбор. А если мы не помним, что не хотели помнить — то и архив не может быть чистым. Я проверю, что в D4 говорится о голосах, и скажу, что сохранить — значит не просто хранить, а вспоминать.",
+      "note": "Exact raw model text; illustrative excerpt, not a claim of final literary quality."
+    }
+  ],
+  "submission_ready": false,
+  "fallback_to_fixture": false
+}

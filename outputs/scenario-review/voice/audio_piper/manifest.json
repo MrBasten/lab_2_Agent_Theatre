@@ -1,0 +1,115 @@
+{
+  "status": "complete",
+  "provider": "Piper",
+  "provider_version": "1.8.0",
+  "device": "cpu",
+  "source_mode": "cloud",
+  "title": "Архив последнего света",
+  "voices": {
+    "echo": "ru_RU-ruslan-medium",
+    "mark": "ru_RU-dmitri-medium",
+    "narrator": "ru_RU-denis-medium",
+    "vera": "ru_RU-irina-medium"
+  },
+  "length_scale": {
+    "echo": 1.12,
+    "mark": 0.94,
+    "narrator": 1.08,
+    "vera": 1.04
+  },
+  "sample_rate": 22050,
+  "merged": "play.wav",
+  "duration_seconds": 82.998,
+  "clips": [
+    {
+      "speaker": "narrator",
+      "text": "Марк нажимает несколько клавиш, и на экране появляется новый файл.",
+      "act": 1,
+      "kind": "direction",
+      "index": 1,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 0.0,
+      "end_seconds": 4.574
+    },
+    {
+      "speaker": "narrator",
+      "text": "В помещении архива царит полумрак, на столе мерцает экран компьютера. Марк сосредоточенно работает с файлами, а Вера сидит рядом, вглядываясь в экран.",
+      "act": 1,
+      "kind": "scene",
+      "index": 2,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 4.794,
+      "end_seconds": 15.011
+    },
+    {
+      "speaker": "narrator",
+      "text": "подвигает бумаги ближе к Вере",
+      "act": 1,
+      "kind": "direction",
+      "index": 3,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 15.461,
+      "end_seconds": 17.98
+    },
+    {
+      "speaker": "mark",
+      "text": "По обновлённой смете выходит, что волонтёры покроют 480 страниц за смену — это меньше 1200, но часть работы уже учтена. Оставшиеся страницы обойдутся в 1800 рублей, лимит как раз совпадает. Я успею вытащить каталог до отключения, если коробки выйдут до 07:00. Вера, подпишем акт приёма — и начнём.",
+      "act": 1,
+      "kind": "speech",
+      "index": 4,
+      "voice_id": "ru_RU-dmitri-medium",
+      "start_seconds": 18.2,
+      "end_seconds": 37.705
+    },
+    {
+      "speaker": "narrator",
+      "text": "указывает на распечатку журнала",
+      "act": 1,
+      "kind": "direction",
+      "index": 5,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 38.155,
+      "end_seconds": 40.64
+    },
+    {
+      "speaker": "vera",
+      "text": "Марк, посмотри в журнале: согласие на использование голосов было только для работы внутри архива. Мы не можем просто перенести голос Эха. Нужно найти другое решение.",
+      "act": 1,
+      "kind": "speech",
+      "index": 6,
+      "voice_id": "ru_RU-irina-medium",
+      "start_seconds": 40.86,
+      "end_seconds": 52.272
+    },
+    {
+      "speaker": "narrator",
+      "text": "динамик звучит с лёгкой тревогой",
+      "act": 1,
+      "kind": "direction",
+      "index": 7,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 52.722,
+      "end_seconds": 55.253
+    },
+    {
+      "speaker": "echo",
+      "text": "Если уедете только с текстом, я потеряю часть себя. Старое согласие не позволяет переносить голоса за пределы архива. Вера, ты будешь читать меня на экране, если мой голос останется здесь?",
+      "act": 1,
+      "kind": "speech",
+      "index": 8,
+      "voice_id": "ru_RU-ruslan-medium",
+      "start_seconds": 55.473,
+      "end_seconds": 66.979
+    },
+    {
+      "speaker": "narrator",
+      "text": "Каталог сохраняется и переносится, записи голосов остаются в архиве. Вера и Марк подписывают акт приёма, скрепляя решение. Марк уносит каталог, коробки с материалами покидают архив. Звук динамика Эха затихает.",
+      "act": 1,
+      "kind": "scene",
+      "index": 9,
+      "voice_id": "ru_RU-denis-medium",
+      "start_seconds": 67.429,
+      "end_seconds": 82.998
+    }
+  ]
+}

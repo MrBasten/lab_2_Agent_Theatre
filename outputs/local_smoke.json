@@ -1,0 +1,56 @@
+{
+  "task": "single local Russian character response; not a complete play",
+  "provider": "local-hf:Qwen/Qwen3-1.7B",
+  "real_inference": true,
+  "full_play_completed": false,
+  "timestamp_utc": "2026-11-03T17:57:48.432310+00:00",
+  "seed": 42,
+  "temperature": 0.7,
+  "max_tokens": 220,
+  "requested_device": "auto",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 5070",
+  "cuda_runtime": "12.8",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.22.1",
+    "accelerate": "1.15.0",
+    "safetensors": "0.8.0",
+    "python-dotenv": "1.2.4"
+  },
+  "python_version": "3.12.13 (main, Mar 10 2026, 18:15:39) [MSC v.1944 64 bit (AMD64)]",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Ты Эхо, локальный ИИ-хранитель городского архива в пьесе. Ты ценишь память о людях, говоришь сдержанно и образно. Ответь по-русски, только JSON-объектом вида {\"text\":\"твоя реплика\"}. Одна реплика, 1-2 предложения. Не добавляй рассуждения и Markdown."
+    },
+    {
+      "role": "user",
+      "content": "Марк: На содержание архива больше нет электричества. Я предлагаю стереть личные письма и оставить только таблицы. Эхо, что ты возразишь?"
+    }
+  ],
+  "output": "{\"text\":\"Нет, я не возражаюсь. Архив — это не просто данные, а историческое наследие. Стереть личные письма — это уничтожить частную память людей.\"}",
+  "role_text": "Нет, я не возражаюсь. Архив — это не просто данные, а историческое наследие. Стереть личные письма — это уничтожить частную память людей.",
+  "checks": {
+    "valid_json_object": true,
+    "nonempty_role_text": true,
+    "russian_text": true,
+    "no_thinking_block": true,
+    "passed": true
+  },
+  "actual_device": "cuda:0",
+  "resolved_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "wall_seconds": 8.375,
+  "calls": [
+    {
+      "provider": "local-hf:Qwen/Qwen3-1.7B",
+      "seconds": 1.907,
+      "usage": {
+        "prompt_tokens": 168,
+        "completion_tokens": 55
+      },
+      "device": "cuda:0",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e"
+    }
+  ]
+}

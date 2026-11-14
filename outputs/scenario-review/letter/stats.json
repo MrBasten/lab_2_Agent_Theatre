@@ -1,0 +1,29 @@
+{
+  "actor_turns": 8,
+  "turns_by_character": {
+    "mark": 4,
+    "vera": 2,
+    "echo": 2
+  },
+  "tool_calls": 4,
+  "successful_tool_calls": 4,
+  "cited_turns": 8,
+  "generation_calls": {
+    "planner": 1,
+    "director": 8,
+    "narrator": 3,
+    "vera": 4,
+    "mark": 6,
+    "echo": 3
+  },
+  "input_characters": 159882,
+  "output_characters": 7882,
+  "director_fallbacks": 0,
+  "stage_completions": 0,
+  "quality": {
+    "unique_actor_texts": 8,
+    "duplicate_actor_turns": 0,
+    "duplicate_scene_texts": 0,
+    "warnings": []
+  }
+}

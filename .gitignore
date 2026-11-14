@@ -217,3 +217,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local model cache and generated private runs
+.models/
+outputs/live/
+outputs/audio/
+outputs/audio_smoke/

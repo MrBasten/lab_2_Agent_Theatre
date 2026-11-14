@@ -1,0 +1,87 @@
+{
+  "task": "Reexecute historical tool arguments against corrected ToolBox; not an LLM rerun",
+  "source_sha256": "d8915ba9c49f74e9f166b631339624687bcd5274bff03fd625da7d69876e7fbc",
+  "cases": [
+    {
+      "arguments": {
+        "id": "D4",
+        "path": "D4_log.md"
+      },
+      "original_error": "Provide exactly one of id or path",
+      "recheck_success": true,
+      "returned_id": "D4",
+      "text_sha256": "baf29e75e507f7f7f6c7f5d304e79a9cd3adac6324c16152c46ccf7c10a3cbdb"
+    },
+    {
+      "arguments": {
+        "id": "D4",
+        "path": "D4_log.md"
+      },
+      "original_error": "Provide exactly one of id or path",
+      "recheck_success": true,
+      "returned_id": "D4",
+      "text_sha256": "baf29e75e507f7f7f6c7f5d304e79a9cd3adac6324c16152c46ccf7c10a3cbdb"
+    },
+    {
+      "arguments": {
+        "id": "D4",
+        "path": "D4_log.md"
+      },
+      "original_error": "Provide exactly one of id or path",
+      "recheck_success": true,
+      "returned_id": "D4",
+      "text_sha256": "baf29e75e507f7f7f6c7f5d304e79a9cd3adac6324c16152c46ccf7c10a3cbdb"
+    },
+    {
+      "arguments": {
+        "id": "D4",
+        "path": "D4_log.md"
+      },
+      "original_error": "Provide exactly one of id or path",
+      "recheck_success": true,
+      "returned_id": "D4",
+      "text_sha256": "baf29e75e507f7f7f6c7f5d304e79a9cd3adac6324c16152c46ccf7c10a3cbdb"
+    },
+    {
+      "arguments": {
+        "id": "D4",
+        "path": "D4_log.md"
+      },
+      "original_error": "Provide exactly one of id or path",
+      "recheck_success": true,
+      "returned_id": "D4",
+      "text_sha256": "baf29e75e507f7f7f6c7f5d304e79a9cd3adac6324c16152c46ccf7c10a3cbdb"
+    },
+    {
+      "arguments": {
+        "id": "D4",
+        "path": "D4_log.md"
+      },
+      "original_error": "Provide exactly one of id or path",
+      "recheck_success": true,
+      "returned_id": "D4",
+      "text_sha256": "baf29e75e507f7f7f6c7f5d304e79a9cd3adac6324c16152c46ccf7c10a3cbdb"
+    },
+    {
+      "arguments": {
+        "id": "D4",
+        "path": "D4_log.md"
+      },
+      "original_error": "Provide exactly one of id or path",
+      "recheck_success": true,
+      "returned_id": "D4",
+      "text_sha256": "baf29e75e507f7f7f6c7f5d304e79a9cd3adac6324c16152c46ccf7c10a3cbdb"
+    },
+    {
+      "arguments": {
+        "id": "D4",
+        "path": "D4_log.md"
+      },
+      "original_error": "Provide exactly one of id or path",
+      "recheck_success": true,
+      "returned_id": "D4",
+      "text_sha256": "baf29e75e507f7f7f6c7f5d304e79a9cd3adac6324c16152c46ccf7c10a3cbdb"
+    }
+  ],
+  "successful_rechecks": 8
+}
